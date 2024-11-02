@@ -1,0 +1,241 @@
+body{
+    margin: 0;
+    font-family: Montserrat;
+}
+
+.hr{
+    opacity: 0.1;
+}
+
+/* l'onglet mauve tout en haut de la page qui contient l'input */
+.input{
+    background-color: #9B009D;
+     height: 48px; 
+    display: flex;
+    position: relative;
+
+}
+/* l'image dans la barre mauve en haut du site */
+.input img {
+    height: 50px;
+}
+
+.input form {
+    margin-top:8px ;
+    position: absolute;
+    margin-left: 40%;
+    
+}
+
+input , button {
+    height: 25px;
+     border-radius: 10%;  /*j'ai pas réussi a le rendre exactement comme sur l'image enfaite je sais pas si c'est un probleme d'ecran ou d'affichage */
+    border: none;
+}
+
+.input form::before {
+    content: "Restez informé de nos événements !";
+    margin-right: 20px;
+    color: rgba(244, 241, 241, 0.807);
+}
+
+/* boutton de l'input s'inscrire */
+.input button {
+    background-color: #2DE173;
+    border: none;
+    color: white;
+    border-radius: 5%;
+}
+
+
+/* Barre de navigation avec logo  */
+
+.navigation {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.navigation  img {
+    height: 50px;
+    margin-top: 2%;
+    margin-left: 1%;
+
+}
+
+.navigation a  {
+    text-decoration: none ;
+    color: black;
+    margin-top: 30px;
+
+}
+
+/* lien de navigation hover */
+
+.accueil:hover{
+    text-decoration: underline;
+}
+
+
+.a_propos:hover{
+    text-decoration: underline;
+}
+
+.coworking:hover{
+    text-decoration: underline;
+}
+
+.coding_school:hover{
+    text-decoration: underline;
+}
+
+.agenda:hover{
+    text-decoration: underline;
+}
+
+.formations:hover{
+    text-decoration: underline;
+}
+
+.presse:hover{
+    text-decoration: underline;
+}
+
+.testez:hover{
+    text-decoration: underline;
+}
+
+
+
+/* section titre et paragraphe 1 */
+
+
+.titre {
+    margin-top: 3%;
+    letter-spacing: 20px;
+    
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+
+
+/* section_01 */
+
+.section_01{
+    display: flex;
+    justify-content: center;
+    margin-top: 4%;
+    
+}
+
+.liste {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.liste li {
+    margin-top: 30px;
+}
+
+.liste ul li::marker {
+    color: #9B009D;
+    
+}
+
+
+
+
+/* titre_02 */
+
+.titre_02{
+    display: flex;
+    justify-content: center;
+    letter-spacing: 9px;
+}
+
+.paragraphe_02{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+
+.paragraphe_03{
+    display: flex;
+    margin-left: 14%;
+    margin-top: 15px;
+}
+
+.paragraphe_04{
+    display: flex;
+    margin-left: 14%;
+    margin-top: 15px;
+    margin-bottom: 86px;
+}
+
+/* footer du site */
+
+.footer_01 {
+    background-color: #3C3C3C;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+}
+
+
+.footer_01 div{
+    margin: 5%;
+}
+
+
+.footer_02{
+    background-color: #3C3C3C;
+    height: 280px;
+    
+}
+
+
+.footer_02 img {
+    height: 80px;
+    margin-left: 45%;
+    margin-top: 6%;
+
+}
+
+.footer_02 p{
+    color: gray;
+    opacity: 0.5;
+    margin-left: 43%;
+    margin-bottom: 2px;
+}
+
+
+
+/* logo reseaux du footer */
+
+
+.icon {
+    width: 70px; 
+    height: auto;
+    margin-right: 8px; 
+    vertical-align: middle;
+}
+
+
+
+
+
+
+
+
+
+
+
